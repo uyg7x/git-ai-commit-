@@ -1,0 +1,3 @@
+[console_scripts]
+gac = git_ai_commit.main:run
+git-ai-commit = git_ai_commit.main:run

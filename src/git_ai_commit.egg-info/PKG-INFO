@@ -1,11 +1,43 @@
+Metadata-Version: 2.4
+Name: git-ai-commit
+Version: 1.0.0
+Summary: AI-powered conventional commit message generator for Git
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/git-ai-commit
+Project-URL: Repository, https://github.com/yourusername/git-ai-commit
+Project-URL: Issues, https://github.com/yourusername/git-ai-commit/issues
+Keywords: git,commit,conventional-commits,ai,cli
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Version Control :: Git
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: typer>=0.12.0
+Requires-Dist: rich>=13.7.0
+Requires-Dist: openai>=1.12.0
+Requires-Dist: ollama>=0.3.0
+Requires-Dist: python-dotenv>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: ruff>=0.2.0; extra == "dev"
+
 # git-ai-commit
 
 **AI-Powered Conventional Commit Message Generator**
 
 [![PyPI Version](https://img.shields.io/pypi/v/git-ai-commit)](https://pypi.org/project/git-ai-commit/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/git-ai-commit)](https://pypi.org/project/git-ai-commit/)
-[![License](https://img.shields.io/github/license/uyg7z/git-ai-commit)](https://github.com/uyg7z/git-ai-commit/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/uyg7z/git-ai-commit/test.yml?branch=main)](https://github.com/uyg7z/git-ai-commit/actions)
+[![License](https://img.shields.io/github/license/yourusername/git-ai-commit)](https://github.com/yourusername/git-ai-commit/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/git-ai-commit/test.yml?branch=main)](https://github.com/yourusername/git-ai-commit/actions)
 
 `git-ai-commit` (or `gac`) is a CLI tool that analyzes your staged git changes and uses AI to generate meaningful conventional commit messages. No more struggling with commit message writers block — let AI do the thinking for you while you stay in control.
 
@@ -49,7 +81,7 @@ pip install git-ai-commit
 ### via pip (Development)
 
 ```bash
-git clone https://github.com/uyg7x/git-ai-commit.git
+git clone https://github.com/yourusername/git-ai-commit.git
 cd git-ai-commit
 pip install -e .
 ```
@@ -101,7 +133,7 @@ Create a `.env` file in your project root or export these variables:
 
 ```bash
 # Clone the repository
-git clone https://github.com/uyg7x/git-ai-commit.git
+git clone https://github.com/yourusername/git-ai-commit.git
 cd git-ai-commit
 
 # Create a virtual environment

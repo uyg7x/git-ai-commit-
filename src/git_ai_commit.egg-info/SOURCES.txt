@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/git_ai_commit/__init__.py
+src/git_ai_commit/ai_engine.py
+src/git_ai_commit/config.py
+src/git_ai_commit/git_utils.py
+src/git_ai_commit/main.py
+src/git_ai_commit.egg-info/PKG-INFO
+src/git_ai_commit.egg-info/SOURCES.txt
+src/git_ai_commit.egg-info/dependency_links.txt
+src/git_ai_commit.egg-info/entry_points.txt
+src/git_ai_commit.egg-info/requires.txt
+src/git_ai_commit.egg-info/top_level.txt
+tests/test_ai_engine.py
+tests/test_config.py
+tests/test_git_utils.py
